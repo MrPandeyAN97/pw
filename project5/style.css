@@ -66,11 +66,9 @@ img{
 /* ------------------------------ */
 .hero {
     background-image: url("bg.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: fixed;
-    height: 91.5vh;
+    background-size: 100% 100%;
     text-align: center;
+    height: 1000px;
   }
   
   .hero-heading {
