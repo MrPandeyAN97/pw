@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            font-size: 30px;
+            display: flex;
+            text-align: center;
+            justify-content: center;;
+        }
+        .btn{
+            font-size: 30px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            text-align: center;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Hi i can change color press the<br> button</div>
+    <button class="btn" onclick="changeColor()">BUTTON</button>
+    <script>
+        function changeColor() {
+            document.querySelector('.box').style.color ='green';
+        }
+    </script>
+</body>
+</html>
