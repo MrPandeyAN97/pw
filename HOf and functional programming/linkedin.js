@@ -1,5 +1,6 @@
 const validateLinkedInUrl = (url) => {
-    const regex = /^https:\/\/www\.linkedin\.com\/in\/[\w-]{5,30}[a-z\d]$/i;
+    const regex = /^(http(s)?:\/\/)?([\w]+\.)?linkedin\.com\/(pub|in|profile)\/([-a-zA-Z0-9]+)\/*/gm
+    
   
     if (regex.test(url)) {
       console.log(`${url} is a valid LinkedIn profile URL.`);
